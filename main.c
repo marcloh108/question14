@@ -3,7 +3,7 @@
 
 int test(int nums[], int array_size)
        {
-          for (int i = 0; i < array_size-1; i++)
+          for (int i = 0; i < array_size; i++)
           {
               if (nums[i] == 1 && nums[i + 1] == 2 && nums[i + 2] == 3)
                   return 1;
